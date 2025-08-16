@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#FF6B35] rounded-full opacity-30"></div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-blue-500 rounded-full opacity-30"></div>
               <img 
-                src="/image/smiling_man.jpg"
+                src="/src/image/smiling_man.jpg"
                 alt="Students studying" 
                 className="relative z-10 rounded-lg shadow-lg max-h-96 object-cover"
               />
