@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, PenTool, Cpu } from 'lucide-react';
-
+import smilingMan from '../image/smiling_man.jpg'; 
 const HeroSection: React.FC = () => {
   return (
     <div className="relative bg-gradient-to-r from-blue-900 to-indigo-800 text-white">
@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#FF6B35] rounded-full opacity-30"></div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-blue-500 rounded-full opacity-30"></div>
               <img 
-                src="/src/image/smiling_man.jpg"
+                src={smilingMan}
                 alt="Students studying" 
                 className="relative z-10 rounded-lg shadow-lg max-h-96 object-cover"
               />
